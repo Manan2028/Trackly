@@ -1,0 +1,12 @@
+<resources>
+    <color name="primaryBlue">#4A90E2</color>
+    <color name="primaryBlueVariant">#3A78C2</color>
+    <color name="secondaryViolet">#8E44AD</color>
+    <color name="secondaryVioletVariant">#6E3291</color>
+    <color name="lightGray">#F5F7FA</color>
+    <color name="mediumGray">#9CA3AF</color>
+    <color name="darkText">#1F2937</color>
+    <color name="calmGreen">#10B981</color>
+    <color name="motivationalYellow">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+</resources>

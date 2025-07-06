@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Trackly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryBlueVariant</item>
+        <item name="colorPrimaryVariant">@color/primaryBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/secondaryVioletVariant</item>
+        <item name="colorSecondaryVariant">@color/secondaryViolet</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnBackground">@color/lightGray</item>
+        <item name="colorOnSurface">@color/lightGray</item>
+
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">@color/black</item>
+
+        <item name="materialButtonStyle">@style/Widget.Trackly.Button</item>
+    </style>
+</resources>

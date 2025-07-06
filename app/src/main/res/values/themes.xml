@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Trackly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <item name="colorPrimaryVariant">@color/primaryBlueVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondaryViolet</item>
+        <item name="colorSecondaryVariant">@color/secondaryVioletVariant</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background and surface colors -->
+        <item name="android:colorBackground">@color/lightGray</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnBackground">@color/darkText</item>
+        <item name="colorOnSurface">@color/darkText</item>
+
+        <!-- Error color (you can customize or keep default) -->
+        <item name="colorError">#B00020</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Customize the button styles -->
+        <item name="materialButtonStyle">@style/Widget.Trackly.Button</item>
+
+        <!-- Customize TextAppearance -->
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Trackly.Headline6</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Trackly.Body1</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="Widget.Trackly.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primaryBlue</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextAppearance.Trackly.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/darkText</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="TextAppearance.Trackly.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/darkText</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+</resources>

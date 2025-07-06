@@ -1,0 +1,35 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Trackly</string>
+
+    <!-- Hints -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <!-- Buttons -->
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_signin">Sign In</string>
+    <string name="btn_google">Sign In with Google</string>
+    <string name="btn_facebook">Sign In with Facebook</string>
+    <string name="btn_twitter">Sign In with Twitter</string>
+
+    <!-- Text Prompts -->
+    <string name="signup_redirect">Don’t have an account? Sign up</string>
+    <string name="signin_redirect">Already have an account? Sign in</string>
+
+    <!-- Toasts / Messages -->
+    <string name="msg_enter_email_password">Please enter both email and password</string>
+    <string name="msg_password_too_short">Password should be at least 6 characters</string>
+    <string name="msg_signup_success">Sign-up successful!</string>
+    <string name="msg_signin_success">Sign-in successful!</string>
+    <string name="msg_unknown_error">Unknown error occurred</string>
+
+
+    <string name="welcome_message">Welcome to Trackly!</string>
+    <string name="logout">Logout</string>
+    <string name="add_task">Add Task</string>
+    <string name="no_tasks">No tasks available. Start by adding one!</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="welcome_guest">Welcome, Guest!</string>
+
+</resources>
